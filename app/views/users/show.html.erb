@@ -13,7 +13,7 @@
         <li>
           <%= link_to new_transfer_path(id: @user.id, destination_account_id: @member.account.id) do %>
             <%= glyph :time, t('global.give_time') %>
-            <span class><%= t "global.give_time" %></span>
+            <span><%= t "global.give_time" %></span>
           <% end %>
         </li>
       <% end %>
